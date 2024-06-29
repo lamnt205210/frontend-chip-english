@@ -1,0 +1,114 @@
+@keyframes moveToSpecificPoint1 {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+
+  50% {
+    transform: translate(158px, 86px) rotate(0deg);
+  }
+  75% {
+    transform: translate(158px, 86px) rotate(1080deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(1080);
+  }
+}
+.card-animation-1 {
+  animation: moveToSpecificPoint1 3s ease-in-out;
+}
+
+@keyframes moveToSpecificPoint2 {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+
+  50% {
+    transform: translate(0px, 86px) rotate(0deg); /* Adjust these values to your target point */
+  }
+  75% {
+    transform: translate(0px, 86px) rotate(1080deg); /* Adjust these values to your target point */
+  }
+  100% {
+    transform: translate(0, 0) rotate(1080);
+  }
+}
+
+.card-animation-2 {
+  animation: moveToSpecificPoint2 3s ease-in-out;
+}
+
+@keyframes moveToSpecificPoint3 {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  50% {
+    transform: translate(-158px, 86px) rotate(0deg); /* Adjust these values to your target point */
+  }
+  75% {
+    transform: translate(-158px, 86px) rotate(1080deg); /* Adjust these values to your target point */
+  }
+  100% {
+    transform: translate(0, 0) rotate(1080);
+  }
+}
+
+.card-animation-3 {
+  animation: moveToSpecificPoint3 3s ease-in-out;
+}
+
+@keyframes moveToSpecificPoint4 {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  50% {
+    transform: translate(158px, -86px) rotate(0deg); /* Adjust these values to your target point */
+  }
+  75% {
+    transform: translate(158px, -86px) rotate(1080deg); /* Adjust these values to your target point */
+  }
+  100% {
+    transform: translate(0, 0) rotate(1080);
+  }
+}
+
+.card-animation-4 {
+  animation: moveToSpecificPoint4 3s ease-in-out;
+}
+
+@keyframes moveToSpecificPoint5 {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  50% {
+    transform: translate(0px, -86px) rotate(0deg); /* Adjust these values to your target point */
+  }
+  75% {
+    transform: translate(0px, -86px) rotate(1080deg); /* Adjust these values to your target point */
+  }
+  100% {
+    transform: translate(0, 0) rotate(1080);
+  }
+}
+
+.card-animation-5 {
+  animation: moveToSpecificPoint5 3s ease-in-out;
+}
+
+@keyframes moveToSpecificPoint6 {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  50% {
+    transform: translate(-158px, -86px) rotate(0deg); /* Adjust these values to your target point */
+  }
+  75% {
+    transform: translate(-158px, -86px) rotate(1080deg); /* Adjust these values to your target point */
+  }
+  100% {
+    transform: translate(0, 0) rotate(1080);
+  }
+}
+
+.card-animation-6 {
+  animation: moveToSpecificPoint6 3s ease-in-out;
+}

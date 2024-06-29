@@ -1,0 +1,22 @@
+/* styles.css */
+@keyframes rotateAndScale {
+  0% {
+    transform: rotate(0deg) scale(0.5); /* Bắt đầu nhỏ */
+  }
+  25% {
+    transform: rotate(-20deg) scale(0.75);
+  }
+  50% {
+    transform: rotate(0deg) scale(1); /* Đến kích thước bình thường */
+  }
+  75% {
+    transform: rotate(20deg) scale(0.75);
+  }
+  100% {
+    transform: rotate(0deg) scale(0.5); /* Trở về kích thước ban đầu */
+  }
+}
+
+.rotate-animation {
+  animation: rotateAndScale 0.5s ease-in-out 3;
+}
